@@ -21,6 +21,7 @@
 
     background-color: rgba(64, 181, 206, 0.9);
     filter: blur(292.64px);
+    -webkit-filter: blur(292.64px);
   }
 
   &__title {
@@ -50,6 +51,8 @@
     position: relative;
     width: 929px;
     height: 653px;
+    filter: blur(292.64px);
+    // mix-blend-mode: luminosity;
   }
 
   &__j {
