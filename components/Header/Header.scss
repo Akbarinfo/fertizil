@@ -1,0 +1,44 @@
+.header {
+  padding-top: 34px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 25px;
+  }
+
+  &__logobox {
+    width: 139px;
+    height: 92px;
+  }
+
+  &__logo {
+    object-fit: cover;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+
+  &__item {
+    &:hover .header__link {
+      color: rgba(64, 181, 206, 0.9);
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+
+  &__link-active {
+    font-weight: 700;
+    color: rgba(64, 181, 206, 0.9);
+  }
+}
